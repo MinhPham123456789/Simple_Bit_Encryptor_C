@@ -9,7 +9,7 @@ A bit encrypting source code. The process produces a text saving the encrypted m
 A executable program to encrypt a message by manipulating the message's bits.
 
 ## The simple_bit_decryptor.c
-A bit decrypting source code. The code requires an encrypted text, the path and the cipher's name can be changed in the code.
+A bit decrypting source code. The code requires a cipher text, the path and the cipher's name can be changed in the code.
 
 ## The decryptor.out
 A executable program to decrypt the encrypted message by manipulating the cipher's bits.
