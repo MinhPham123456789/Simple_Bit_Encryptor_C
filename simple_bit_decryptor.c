@@ -1,7 +1,14 @@
 #include <stdio.h>
 #include <string.h>
-
+/*
+This code is a template to be used in creating cyber security challenges
+Just replace the decryption code with your algorithm
+*/
 int decoder(){
+    /*
+    This function reads the cipher in a text file, decrypts the cipher, and
+    print out the plaintext
+    */
     char cipher[62];
     FILE *file_pointer;
     file_pointer = fopen("bitwise_text.txt","rb");
