@@ -1,8 +1,15 @@
 #include <stdio.h>
 #include <string.h>
-
+/*
+This code is a template to be used in creating cyber security challenges
+Just replace the encryption code with your algorithm
+*/
 int main(void)
 {
+     /*
+    This function encrypts a plaintext message and
+    saves the cipher text to a text file to be used later on
+    */
     char message[62] = "pecan{Remember_to_protect_the_memory_allocation_in_your_work!}"; //62
     char key[1] = "a";
     char cipher[62] = "pecan{Remember_to_protect_the_memory_allocation_in_your_work!}";
